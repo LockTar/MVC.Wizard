@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MVC.Wizard.Sample</id>
+    <version>1.3.1</version>
+    <title>MVC Wizard Sample</title>
+    <authors>Ralph Jansen</authors>
+    <owners>Ralph Jansen</owners>
+    <description>
+      This is a sample wizard for the MVC.Wizard NuGet package. Open the SampleWizardController to start your sample and see how it works.
+    </description>
+    <releaseNotes>
+      1.3.1 Changed .NET Framework from 4.5.1 to 4.5 so this Wizard could also be used in projects that target that .NET Framework version.
+      1.3.0 Possible to update the model by hand
+      1.2.0 Update sample application with error summary.
+      You can now throw a custom error message in the ProcessToNext method in your MVC controller by throwing a System.ComponentModel.DataAnnotations.ValidationException.
+      The error message of the exception will be used in the summary.
+      1.1.1 Update dependency
+      1.1.0 Update the dependency of MVC.Wizard to 1.1.0 so it uses the signed version.
+      1.0.0 First release.
+    </releaseNotes>
+    <summary>
+      This is a sample wizard for the MVC.Wizard NuGet package.
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/MVC.Wizard</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright 2013</copyright>
+    <dependencies>      
+      <dependency id="MVC.Wizard" version="1.3.1" />
+    </dependencies>
+    <references></references>
+    <tags>MVC JSON Wizard Ajax jQuery jQueryValidation</tags>
+  </metadata>
+  <files>
+    <file src="..\MVC.Wizard.Web\Controllers\SampleWizardController.cs" target="content\Controllers" />
+    <file src="..\MVC.Wizard.Web\ViewModels\SampleWizardViewModel.cs" target="content\ViewModels" />
+    <file src="..\MVC.Wizard.Web\ViewModels\WizardStep.cs" target="content\ViewModels" />
+    <file src="..\MVC.Wizard.Web\Views\SampleWizard\Sample.cshtml" target="content\Views\SampleWizard" />
+    <file src="readme.txt" target="" />
+  </files>
+</package>

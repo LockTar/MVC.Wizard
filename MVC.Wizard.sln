@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Wizard.Core", "MVC.Wizard.Core\MVC.Wizard.Core.csproj", "{B9465D95-F55C-45B1-9FB7-450E3460EEBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Wizard.Web", "MVC.Wizard.Web\MVC.Wizard.Web.csproj", "{8BAB2DA1-4E62-43EB-A742-3D1DB542E068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Wizard", "MVC.Wizard\MVC.Wizard.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF034784-D57E-4F98-B032-AED950FDC704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC.Wizard.Sample", "MVC.Wizard.Sample\MVC.Wizard.Sample.csproj", "{D4E301F9-CC2C-46DC-AA46-B77D82DD0694}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ralphjansen.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MVC.Wizard.Web\\MVC.Wizard.Web.csproj
+		SccProjectName1 = MVC.Wizard.Web
+		SccLocalPath1 = MVC.Wizard.Web
+		SccProjectUniqueName2 = MVC.Wizard.Core\\MVC.Wizard.Core.csproj
+		SccProjectName2 = MVC.Wizard.Core
+		SccLocalPath2 = MVC.Wizard.Core
+		SccProjectUniqueName3 = MVC.Wizard\\MVC.Wizard.csproj
+		SccProjectName3 = MVC.Wizard
+		SccLocalPath3 = MVC.Wizard
+		SccProjectUniqueName4 = MVC.Wizard.Sample\\MVC.Wizard.Sample.csproj
+		SccProjectName4 = MVC.Wizard.Sample
+		SccLocalPath4 = MVC.Wizard.Sample
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9465D95-F55C-45B1-9FB7-450E3460EEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9465D95-F55C-45B1-9FB7-450E3460EEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9465D95-F55C-45B1-9FB7-450E3460EEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9465D95-F55C-45B1-9FB7-450E3460EEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BAB2DA1-4E62-43EB-A742-3D1DB542E068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BAB2DA1-4E62-43EB-A742-3D1DB542E068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BAB2DA1-4E62-43EB-A742-3D1DB542E068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BAB2DA1-4E62-43EB-A742-3D1DB542E068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E301F9-CC2C-46DC-AA46-B77D82DD0694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E301F9-CC2C-46DC-AA46-B77D82DD0694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E301F9-CC2C-46DC-AA46-B77D82DD0694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E301F9-CC2C-46DC-AA46-B77D82DD0694}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
